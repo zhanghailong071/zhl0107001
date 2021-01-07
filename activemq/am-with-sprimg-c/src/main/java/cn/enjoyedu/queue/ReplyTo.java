@@ -27,7 +27,7 @@ public class ReplyTo {
                     public Message createMessage(Session session)
                             throws JMSException {
                         Message msg
-                                = session.createTextMessage("Rep name    lyTo " + consumerMsg);
+                                = session.createTextMessage("Rep name  000----master  lyTo " + consumerMsg);
                         return msg;
                     }
                 });
